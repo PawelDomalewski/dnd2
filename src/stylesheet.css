@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(../images/Krasnolud\ Small.png);
+    background-image: url(../images/example.png);
     text-align: center;
     align-content: center;
     display:block;
@@ -11,11 +11,12 @@ body {
 }
 
 .flex-content {
-    background-color: #000000;
+    background-color: hsl(0, 12%, 25%);
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    flex-wrap: wrap;
 }
 .flex-1 {
     margin: 1em;
