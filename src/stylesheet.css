@@ -11,10 +11,11 @@ body {
 }
 
 .flex-content {
-    background-color: white;
+    background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 .flex-1 {
     margin: 1em;
