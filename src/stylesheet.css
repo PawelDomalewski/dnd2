@@ -21,9 +21,16 @@ body {
 .flex-1 {
     margin: 1em;
     padding: 1em;
+    animation: visible 1.5s;
 }
 
 .flex-2 {
     margin: 1em;
     padding: 1em;
+    animation: visible 1.5s;
+}
+
+@keyframes visible {
+    from {opacity: 0; scale: 0.5;}
+    to {opacity: 1; scale: 1;}
 }
