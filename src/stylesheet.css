@@ -11,7 +11,6 @@ body {
 }
 
 .flex-content {
-    background-color: hsl(0, 12%, 25%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,6 +27,8 @@ body {
     margin: 1em;
     padding: 1em;
     animation: visible 1.5s;
+    background-color: hsla(0, 12%, 25%, 0.80);
+
 }
 
 .girin {
