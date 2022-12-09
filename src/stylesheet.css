@@ -4,6 +4,10 @@
 
 body {
     background-image: url(../images/Tło\ druzynowe\ kompressed.jpg);
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
     text-align: center;
     align-content: center;
     display:block;
@@ -35,11 +39,17 @@ body {
     scale: 1.5;
 }
 
-@keyframes visible {
+/* @keyframes visible {
     from {opacity: 0; scale: 0.5;}
     to {opacity: 1; scale: 1;}
-}
+} */
 
 .flex-content:nth-child(odd) {
     flex-direction: row-reverse;
+}
+
+.header {
+    background-color: hsla(0, 12%, 25%, 0.80);
+    padding: 1em;
+    color:white;
 }
