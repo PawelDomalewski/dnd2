@@ -53,3 +53,16 @@ body {
     padding: 1em;
     color:white;
 }
+
+.footer {
+    background-color: hsla(0, 12%, 25%, 0.80);
+    padding: 0.5em;
+    font-size: smaller;
+    color: white;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+}
+
