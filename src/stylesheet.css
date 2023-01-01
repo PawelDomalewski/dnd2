@@ -1,9 +1,13 @@
+:root {
+    --backgroundcolor: #473838;
+}
+
 * {
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 body {
-    background-image: url(../images/Tło\ druzynowe\ kompressed.jpg);
+    background-image: url(../images/background.jpg);
     background-attachment:fixed;
     background-position:center;
     background-repeat: no-repeat;
@@ -31,7 +35,7 @@ body {
     margin: 1em;
     padding: 1em;
     animation: visible 1.5s;
-    background-color: hsla(0, 12%, 25%, 0.80);
+    background-color: var(--backgroundcolor);
 
 }
 
@@ -49,13 +53,13 @@ body {
 }
 
 .header {
-    background-color: hsla(0, 12%, 25%, 0.80);
+    background-color: var(--backgroundcolor);
     padding: 1em;
     color:white;
 }
 
 .footer {
-    background-color: hsla(0, 12%, 25%, 0.80);
+    background-color: var(--backgroundcolor);
     padding: 0.5em;
     font-size: smaller;
     color: white;
