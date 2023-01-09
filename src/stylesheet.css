@@ -1,5 +1,6 @@
 :root {
-    --backgroundcolor: #473838;
+    --header-color: #555555;
+    --backgroundcolor: #1d1919; /* #473838 */
 }
 
 * {
@@ -15,15 +16,21 @@ body {
     text-align: center;
     align-content: center;
     display:block;
-    flex-direction: row;
+    flex-direction:row;
+}
+
+.head {
+    background-color: var(--backgroundcolor);
+    text-align: left;
 }
 
 .flex-content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     color: white;
     flex-wrap: wrap;
+    text-align: left;
 }
 .flex-1 {
     margin: 1em;
@@ -34,8 +41,9 @@ body {
 .flex-2 {
     margin: 1em;
     padding: 1em;
-    animation: visible 1.5s;
+    animation: visible 1s;
     background-color: var(--backgroundcolor);
+    width:50%;
 
 }
 
@@ -43,19 +51,19 @@ body {
     scale: 1.5;
 }
 
-/* @keyframes visible {
+ @keyframes visible {
     from {opacity: 0; scale: 0.5;}
     to {opacity: 1; scale: 1;}
-} */
+}
 
-.flex-content:nth-child(odd) {
+.flex-content:nth-child(even) {
     flex-direction: row-reverse;
 }
 
 .header {
-    background-color: var(--backgroundcolor);
+    /*background-color: var(--header-color); */
     padding: 1em;
-    color:white;
+    color:black;
 }
 
 .footer {
@@ -70,3 +78,9 @@ a {
     color: white;
 }
 
+@media screen and (max-width: 610px) {
+    .flex-2 {
+        width:auto;
+    }
+    
+}
