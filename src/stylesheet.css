@@ -52,6 +52,14 @@ body {
     scale: 1.5;
 }
 
+img {
+    cursor:pointer;
+}
+
+img:hover {
+    filter: grayscale(60%);
+}
+
  @keyframes visible {
     from {opacity: 0; scale: 0.5;}
     to {opacity: 1; scale: 1;}
