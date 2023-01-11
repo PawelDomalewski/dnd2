@@ -17,6 +17,7 @@ body {
     align-content: center;
     display:block;
     flex-direction:row;
+    margin: 0;
 }
 
 .head {
