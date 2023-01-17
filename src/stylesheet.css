@@ -20,10 +20,6 @@ body {
     margin: 0;
 }
 
-.head {
-    background-color: var(--backgroundcolor);
-    text-align: left;
-}
 
 .flex-content {
     display: flex;
@@ -74,6 +70,12 @@ img:hover {
     padding: 1em;
     color:black;
 }
+
+.head-text {
+    background-color: var(--backgroundcolor);
+    text-align: left;
+}
+
 
 .footer {
     background-color: var(--backgroundcolor);
