@@ -78,8 +78,10 @@ img:hover {
 
 .char-details {
     display: none;
-    position: relative;
+    position: absolute;
 }
+
+img:hover .char-details {display: block;}
 
 .footer {
     background-color: var(--backgroundcolor);
