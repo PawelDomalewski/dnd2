@@ -76,6 +76,10 @@ img:hover {
     text-align: left;
 }
 
+.char-details {
+    display: none;
+    position: relative;
+}
 
 .footer {
     background-color: var(--backgroundcolor);
