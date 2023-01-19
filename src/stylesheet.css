@@ -81,7 +81,7 @@ img:hover {
     position: absolute;
 }
 
-img:hover .char-details {display: block;}
+#girin:hover .char-details {display: block;}
 
 .footer {
     background-color: var(--backgroundcolor);
