@@ -1,6 +1,8 @@
 :root {
     --header-color: #555555;
     --backgroundcolor: #1d1919; /* #473838 */
+    --popupcolor: #ffffff; 
+    --popuptextcolor: #000000;
 }
 
 * {
@@ -20,6 +22,9 @@ body {
     margin: 0;
 }
 
+h3 {
+    text-align: center;
+}
 
 .flex-content {
     display: flex;
@@ -44,7 +49,7 @@ body {
 
 }
 
-.girin {
+#girin-img {
     scale: 1.5;
 }
 
@@ -78,10 +83,17 @@ img:hover {
 
 .char-details {
     display: none;
-    position: absolute;
+    position:absolute;
+    z-index: 1;
+    background-color: var(--popupcolor);
+    color: var(--popuptextcolor);
+    opacity: 0.90;
+    padding-right:0.5em;
+    padding-left: 0.5em;
+    margin: auto;
 }
 
-#girin:hover .char-details {display: block;}
+/*#girin:hover .char-details {display: block;}*/
 
 .footer {
     background-color: var(--backgroundcolor);

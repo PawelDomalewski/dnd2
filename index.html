@@ -32,6 +32,7 @@
         <!--Wiek: 26 lat, wzrost: 168, waga: 60kg Rasa: Człowiek -->
         <div class="flex-1"><img src="./images/feyra Small 170x318.png"> </div>
         <div class="flex-2">
+            <h3>Feyra</h3>
             <h4>Wczesne dzieciństwo</h4>
             <p>Fera od najmłodszych lat wykazywała zainteresowanie bitwami i bawiła się raczej ze swoimi
                 braćmi niż z siostrami. Damskie zajęcia zawsze wydawały jej się nudne i monotonne. Szukała
@@ -63,17 +64,18 @@
         </div>
     </div>
     <div class="flex-content">
-        <div class="flex-1"><img class="girin" onclick="" src="./images/Krasnolud Small.png">
+        <div class="flex-1"><img id="girin-img" class="girin" onclick="openStat(event, 'girin')" src="./images/Krasnolud Small.png">
             <div id="girin" class="char-details">
                 <p style="text-align: center;"><strong>Girin Ironfist</strong><br>
-                    <strong>Rasa:</strong>Krasnolud<br>
-                    <strong>Klasa:</strong>Paladyn
+                    <strong>Rasa: </strong>Krasnolud<br>
+                    <strong>Klasa: </strong>Paladyn
                     <br>
-                    <strong>Wiek:</strong>85 lat
+                    <strong>Wiek: </strong>85 lat
                 </p>
             </div>
         </div>
         <div class="flex-2">
+            <h3>Girin Ironfist</h3>
             <p><strong>Historia:</strong> Rodzina Ironfist od wieków mieszkał w Twierdzy Boladar, w pobliżu wielkiej
                 kopalni rudy
                 żelaza, z której Klan Uniesionego Młota czerpał zyski. Sami Ironfistowie zajmowali się przeróżnymi
@@ -119,6 +121,33 @@
             <a href="https://github.com/PawelDomalewski">https://github.com/PawelDomalewski</a>
         </p>
     </div>
+    <script>
+        function openStat(evt, tabName) {
+            // Declare all variables
+            var i, tabcontent, tablinks;
+
+            // Get all elements with class="tabcontent" and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            // Get all elements with class="tablinks" and remove the class "active"
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            // Show the current tab, and add an "active" class to the link that opened the tab
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+    <script>
+        const setTheme = theme => document.documentElement.className = theme;
+    </script>
 </body>
 
 </html>
