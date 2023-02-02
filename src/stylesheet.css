@@ -24,6 +24,9 @@ body {
 
 h3 {
     text-align: center;
+    background-color: var(--header-color);
+    padding: 1em;
+    outline: solid, goldenrod;
 }
 
 .flex-content {
