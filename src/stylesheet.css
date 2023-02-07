@@ -84,8 +84,9 @@ img:hover {
     text-align: left;
 }
 
-.char-details {
-    display: none;
+
+    /*
+    First try on modal stat
     position:absolute;
     z-index: 1;
     background-color: var(--popupcolor);
@@ -93,7 +94,28 @@ img:hover {
     opacity: 0.90;
     padding-right:0.5em;
     padding-left: 0.5em;
-    margin: auto;
+    margin: auto;*/
+
+.modal {
+    background-color: var(--popupcolor);
+    color: var(--popuptextcolor);
+    margin: 15% auto;
+    padding: 1em;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.char-details {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 /*#girin:hover .char-details {display: block;}*/
