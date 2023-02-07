@@ -1,7 +1,7 @@
 :root {
     --header-color: #700f0f;
     --backgroundcolor: #1d1919; /* #473838 */
-    --popupcolor: #ffffff; 
+    --popupcolor: #555555; 
     --popuptextcolor: #000000;
 }
 
@@ -15,7 +15,6 @@ body {
     background-position:center;
     background-repeat: no-repeat;
     background-color: antiquewhite;
-    text-align: center;
     align-content: center;
     display:block;
     flex-direction:row;
@@ -26,7 +25,6 @@ h3 {
     text-align: center;
     background-color: var(--header-color);
     padding: 1em;
-    outline: solid, goldenrod;
 }
 
 .flex-content {
@@ -35,7 +33,6 @@ h3 {
     justify-content:center;
     color: white;
     flex-wrap: wrap;
-    text-align: left;
 }
 .flex-1 {
     margin: 1em;
