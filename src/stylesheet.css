@@ -60,7 +60,7 @@ img {
 }
 
 img:hover {
-    filter: grayscale(60%);
+    filter:brightness(1.25);
 }
 
  @keyframes visible {
@@ -123,8 +123,6 @@ img:hover {
     float: right;
     font-size: 28px;
     font-weight: bold;
-    padding: 1em 0.5em;
-    align-items: center;
   }
   
   .close:hover,
@@ -152,6 +150,21 @@ img:hover {
 a {
     text-decoration-line: none;
     color: white;
+}
+
+table {
+    width: 100%;
+}
+th {
+    background-color: var(--header-color);
+}
+
+tr {
+    background-color: var(--backgroundcolor);
+}
+
+tr:nth-child(even) {
+    background-color: var(--popupcolor);
 }
 
 @media screen and (max-width: 610px) {
