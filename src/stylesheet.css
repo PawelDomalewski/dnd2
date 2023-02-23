@@ -10,6 +10,11 @@
 }
 
 body {
+    margin: 0;
+    background-color: var(--popupcolor);
+}
+
+.backgroundimg {
     background-image: url(../images/background.jpg);
     background-attachment:fixed;
     background-position:center;
@@ -19,6 +24,10 @@ body {
     display:block;
     flex-direction:row;
     margin: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    padding: 10em;
 }
 
 h1, h2 {
