@@ -11,7 +11,7 @@
 
 body {
     margin: 0;
-    background-color: var(--popupcolor);
+    background-color: var(--backgroundcolor);
 }
 
 .backgroundimg {
