@@ -57,10 +57,12 @@ h3 {
 
 img {
     cursor:pointer;
+    filter: drop-shadow(0px 0px 1rem var(--backgroundcolor));
+    transition: filter 500ms ease;
 }
 
 img:hover {
-    filter:brightness(1.25);
+    filter: drop-shadow(0px 0px 2rem var(--header-color))
 }
 
  @keyframes visible {
