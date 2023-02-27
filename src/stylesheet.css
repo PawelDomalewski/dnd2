@@ -14,8 +14,8 @@ body {
     background-color: var(--backgroundcolor);
 }
 
-.backgroundimg {
-    background-image: url(../images/background.jpg);
+.backgroundimg,
+.backgroundimg1 {
     background-attachment:fixed;
     background-position:center;
     background-repeat: no-repeat;
@@ -27,6 +27,14 @@ body {
     height: 100%;
     z-index: 1;
     padding: 10em;
+}
+
+.backgroundimg {
+    background-image: url(../images/background.jpg);
+}
+
+.backgroundimg1 {
+    background-image: url(../images/product-hero-starterset.jpg);
 }
 
 h1, h2 {
