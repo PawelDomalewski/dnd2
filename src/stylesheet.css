@@ -41,13 +41,13 @@ h3 {
 
 li {
     background-image: url(../images/sword-svgrepo-com1.gif);
-    padding: 1em;
-    padding-left: 3em;
+    padding: 0.4em;
+    padding-left: 1.5em;
     margin: 0;
     list-style: none;
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: 2em;
+    background-size: 1em;
 }
 
 .flex-content {
