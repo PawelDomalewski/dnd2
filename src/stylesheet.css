@@ -111,7 +111,7 @@ img:hover {
 .char-details {
     background-color: var(--popupcolor);
     color: var(--popuptextcolor);
-    margin: 15% auto;
+    margin: 10% auto;
     padding: 1em;
     border: 1px solid #888;
     width: 80%;

@@ -30,7 +30,56 @@
     </section>
     <div class="flex-content">
         <!--Wiek: 26 lat, wzrost: 168, waga: 60kg Rasa: Człowiek -->
-        <div class="flex-1"><img src="./images/feyra Small 170x318.png" alt="Feyra" title="Wojownik"> </div>
+        <div class="flex-1"><img id="feyra-img" src="./images/feyra Small 170x318.png" alt="Feyra" title="Wojownik" onclick="openStat(event, 'feyra', 'feyra-img')">
+            <div id="feyra" class="modal">
+                <div class="char-details">
+                    <span class="close">&times;</span>
+                    <div class="flex-content">
+                        <div class="flex-1"><img src="./images/feyra Small 170x318.png"></div>
+                        <div class="flex-2">
+                            <table>
+                                <tr>
+                                    <th colspan="2">Feyra</th>
+                                </tr>
+                                <tr>
+                                    <td>Klasa</td>
+                                    <td>Wojownik</td>
+                                </tr>
+                                <tr>
+                                    <td>Rasa</td>
+                                    <td>Człowiek</td>
+                                </tr>
+                                <tr>
+                                    <td>Siła</td>
+                                    <td>16</td>
+                                </tr>
+                                <tr>
+                                    <td>Zręczność</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>Kondycja</td>
+                                    <td>16</td>
+                                </tr>
+                                <tr>
+                                    <td>Mądrość</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>Inteligencja</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>Charyzma</td>
+                                    <td>10</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    </p>
+                </div>
+            </div>
+        </div>
         <div class="flex-2">
             <h3>Feyra</h3>
             <h4>Wczesne dzieciństwo</h4>
@@ -65,7 +114,7 @@
     </div>
     <div class="flex-content">
         <div class="flex-1"><img id="girin-img" class="girin" src="./images/Krasnolud Small.png" alt="Girin"
-                title="Paladyn">
+                title="Paladyn" onclick="openStat(event, 'girin', 'girin-img')"">
             <div id="girin" class="modal">
                 <div class="char-details">
                     <span class="close">&times;</span>
@@ -205,7 +254,7 @@
         <p>Domalewski IT
             <a href="https://github.com/PawelDomalewski">https://github.com/PawelDomalewski</a>
         </p>
-    </div>
+    </div> <!--
     <script>
         // Get the modal
         var modal = document.getElementById("girin");
@@ -232,6 +281,20 @@
                 modal.style.display = "none";
             }
         } 
+    </script> -->
+    <script>
+        function openStat(evt, statName, btnName) {
+            var modal = document.getElementById(statName);
+
+            var btn = document.getElementById(btnName);
+
+            document.getElementById(statName).style.display = "block"
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    document.getElementById(statName).style.display = "none"
+                }
+            }
+        }
     </script>
 </body>
 
