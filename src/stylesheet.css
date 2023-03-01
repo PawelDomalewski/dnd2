@@ -1,27 +1,29 @@
 :root {
     --header-color: #700f0f;
-    --backgroundcolor: #1d1919; /* #473838 */
-    --popupcolor: #555555; 
+    --backgroundcolor: #1d1919;
+    /* #473838 */
+    --popupcolor: #555555;
     --popuptextcolor: #000000;
 }
 
 * {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 body {
     background-image: url(../images/background.jpg);
-    background-attachment:fixed;
-    background-position:center;
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-color: antiquewhite;
     align-content: center;
-    display:block;
-    flex-direction:row;
+    display: block;
+    flex-direction: row;
     margin: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
 }
 
@@ -45,10 +47,11 @@ li {
 .flex-content {
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     color: white;
     flex-wrap: wrap;
 }
+
 .flex-1 {
     margin: 1em;
     padding: 1em;
@@ -58,7 +61,7 @@ li {
     margin: 1em;
     padding: 1em;
     background-color: var(--backgroundcolor);
-    width:50%;
+    width: 50%;
 
 }
 
@@ -67,7 +70,7 @@ li {
 }
 
 img {
-    cursor:pointer;
+    cursor: pointer;
     filter: drop-shadow(0px 0px 1rem var(--backgroundcolor));
     transition: filter 500ms ease;
 }
@@ -76,9 +79,16 @@ img:hover {
     filter: drop-shadow(0px 0px 2rem var(--header-color))
 }
 
- @keyframes visible {
-    from {opacity: 0; scale: 0.5;}
-    to {opacity: 1; scale: 1;}
+@keyframes visible {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
 }
 
 .flex-content:nth-child(even) {
@@ -88,7 +98,7 @@ img:hover {
 .header {
     /*background-color: var(--header-color); */
     padding: 1em;
-    color:var(--popuptextcolor);
+    color: var(--popuptextcolor);
 }
 
 .head-text {
@@ -97,7 +107,7 @@ img:hover {
 }
 
 
-    /*
+/*
     First try on modal stat
     position:absolute;
     z-index: 1;
@@ -129,6 +139,7 @@ img:hover {
     overflow: auto;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
 }
 
 .close {
@@ -136,19 +147,29 @@ img:hover {
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
+}
 
-  .filler {
+.filler {
     width: auto;
     padding: 10em;
-  }
+    background-image: url(../images/backgroundcolor.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    align-content: center;
+    display: block;
+    flex-direction: row;
+    margin: 0;
+
+}
 
 /*#girin:hover .char-details {display: block;}*/
 
@@ -157,7 +178,7 @@ img:hover {
     padding: 0.5em;
     font-size: smaller;
     color: white;
-    text-align:center;
+    text-align: center;
 }
 
 a {
@@ -168,6 +189,7 @@ a {
 table {
     width: 100%;
 }
+
 th {
     background-color: var(--header-color);
 }
@@ -182,7 +204,7 @@ tr:nth-child(even) {
 
 @media screen and (max-width: 610px) {
     .flex-2 {
-        width:auto;
+        width: auto;
     }
-    
+
 }
