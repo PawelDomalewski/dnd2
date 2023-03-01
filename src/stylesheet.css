@@ -158,12 +158,11 @@ img:hover {
 
 .filler {
     width: auto;
-    padding: 10em;
+    padding: 15em;
     background-image: url(../images/backgroundcolor.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: antiquewhite;
     align-content: center;
     display: block;
     flex-direction: row;
