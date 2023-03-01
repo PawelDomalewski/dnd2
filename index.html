@@ -286,11 +286,17 @@
         function openStat(evt, statName, btnName) {
             var modal = document.getElementById(statName);
 
+            var span = document.getElementsByClassName("close");
+
             var btn = document.getElementById(btnName);
 
             document.getElementById(statName).style.display = "block"
             window.onclick = function (event) {
                 if (event.target == modal) {
+                    document.getElementById(statName).style.display = "none"
+                }
+
+                if (event.target == span) {
                     document.getElementById(statName).style.display = "none"
                 }
             }
