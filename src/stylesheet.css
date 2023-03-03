@@ -15,7 +15,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: antiquewhite;
+    background-color: var(--popuptextcolor);
     align-content: center;
     display: block;
     flex-direction: row;
