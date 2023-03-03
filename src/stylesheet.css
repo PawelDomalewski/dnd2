@@ -139,7 +139,6 @@ img:hover {
     overflow: auto;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
-    overflow: hidden;
 }
 
 .close {
@@ -158,7 +157,7 @@ img:hover {
 
 .filler {
     width: auto;
-    padding: 15em;
+    padding: 15em 0em;
     background-image: url(../images/backgroundcolor.jpg);
     background-attachment: fixed;
     background-position: center;
