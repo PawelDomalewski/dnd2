@@ -287,6 +287,11 @@
             var modal = document.getElementById(statName);
 
             var span = document.getElementsByClassName("close");
+            for (i = 0; i < span.length; i++) {
+                span[i].onclick = function () {
+                    modal.style.display = "none"
+                }
+            }
 
             var btn = document.getElementById(btnName);
 
@@ -296,9 +301,9 @@
                     document.getElementById(statName).style.display = "none"
                 }
 
-                if (event.target == span) {
+                /*if (event.target == span) {
                     document.getElementById(statName).style.display = "none"
-                }
+                }*/
             }
         }
     </script>
