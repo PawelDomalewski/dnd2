@@ -1,7 +1,6 @@
 :root {
     --header-color: #700f0f;
     --backgroundcolor: #1d1919;
-    /* #473838 */
     --popupcolor: #555555;
     --popuptextcolor: #000000;
 }
@@ -97,7 +96,6 @@ img:hover {
 }
 
 .header {
-    /*background-color: var(--header-color); */
     padding: 1em;
     color: var(--popuptextcolor);
 }
@@ -106,18 +104,6 @@ img:hover {
     background-color: var(--backgroundcolor);
     text-align: left;
 }
-
-
-/*
-    First try on modal stat
-    position:absolute;
-    z-index: 1;
-    background-color: var(--popupcolor);
-    color: var(--popuptextcolor);
-    opacity: 0.90;
-    padding-right:0.5em;
-    padding-left: 0.5em;
-    margin: auto;*/
 
 .char-details {
     background-color: var(--popupcolor);
@@ -169,8 +155,6 @@ img:hover {
     margin: 0;
 
 }
-
-/*#girin:hover .char-details {display: block;}*/
 
 .footer {
     background-color: var(--backgroundcolor);
