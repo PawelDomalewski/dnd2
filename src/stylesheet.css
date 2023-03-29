@@ -96,12 +96,12 @@ img:hover {
 }
 
 .header {
-    padding: 1em;
+    padding: 2em;
     color: var(--popuptextcolor);
     background-color: var(--backgroundcolor);
     margin: 1em;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
     border: solid;
     border-color: var(--popupcolor);
 }
