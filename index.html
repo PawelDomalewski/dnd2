@@ -11,350 +11,378 @@
 <title>Kampania Dungeons and Dragons</title>
 
 <body>
-    <div class="header">
-        <h1>Kampania Dungeons and Dragons</h1>
-        <h2>Przygody niezwykłej drużyny</h2>
-    </div>
-    <section class="head-text">
-        <div class="flex-content">
-            <div class="flex-2">
-                <p>Poznaj świat Zapomnianych Krain i Cormyru, zobacz przygody niezwykłej drużyny:</p>
-                <ul>
-                    <li>Feyra - waleczna wojowniczka, zawsze gotowa do walki, skrywająca pewien sekret</li>
-                    <li>Girin Ironfist - krasnoludzki Paladyn Moradina, z zamiłowania kucharz</li>
-                    <li>Nitra - pólelfia łowczyni o dziwnych oczach oraz tajemniczą przeszłością</li>
-                    <li>Reaven - ludzki uczony, który szuka lekarstwa na nieznaną chorobę nękającą jego brata</li>
-                </ul>
+    <section class="bodySection">
+        <div class="header">
+            <h1>Kampania Dungeons and Dragons</h1>
+            <h2>Przygody niezwykłej drużyny</h2>
+        </div>
+        <section class="head-text">
+            <div class="flex-content">
+                <div class="flex-2">
+                    <p>Poznaj świat Zapomnianych Krain i Cormyru, zobacz przygody niezwykłej drużyny:</p>
+                    <ul>
+                        <li>Feyra - waleczna wojowniczka, zawsze gotowa do walki, skrywająca pewien sekret</li>
+                        <li>Girin Ironfist - krasnoludzki Paladyn Moradina, z zamiłowania kucharz</li>
+                        <li>Nitra - pólelfia łowczyni o dziwnych oczach oraz tajemniczą przeszłością</li>
+                        <li>Reaven - ludzki uczony, który szuka lekarstwa na nieznaną chorobę nękającą jego brata</li>
+                    </ul>
+                </div>
             </div>
+        </section>
+        <div class="flex-content">
+            <div class="flex-1"><img id="feyra-img" src="./images/feyra Small 170x318.png" alt="Feyra" title="Wojownik"
+                    onclick="openStat(event, 'feyra', 'feyra-img')">
+                <div id="feyra" class="modal">
+                    <div class="char-details">
+                        <span class="close">&times;</span>
+                        <div class="flex-content">
+                            <div class="flex-1"><img src="./images/feyra Small 170x318.png"></div>
+                            <div class="flex-2">
+                                <table>
+                                    <tr>
+                                        <th colspan="2">Feyra</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Klasa</td>
+                                        <td>Wojownik</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rasa</td>
+                                        <td>Człowiek</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Siła</td>
+                                        <td>16</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Zręczność</td>
+                                        <td>12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kondycja</td>
+                                        <td>16</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mądrość</td>
+                                        <td>12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Inteligencja</td>
+                                        <td>12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Charyzma</td>
+                                        <td>10</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-2">
+                <h3>Feyra</h3>
+                <h4>Wczesne dzieciństwo</h4>
+                <p>Fera od najmłodszych lat wykazywała zainteresowanie bitwami i bawiła się raczej ze swoimi
+                    braćmi niż z siostrami. Damskie zajęcia zawsze wydawały jej się nudne i monotonne. Szukała
+                    przygód i adrenaliny w każdej zabawie. <br>
+                    W wieku zaledwie 7 lat została przekazana na szkolenie wojskowe przez swoich rodziców.<br>
+                    Dziewczyna szybko zaczęła robić postępy przez co zyskała wielu zalotników wśród kolegów i wrogów
+                    wśród zazdrosnych koleżanek. Z biegiem czasu, chcąc nie chcąc, uodporniła się na niewybredne
+                    zaczepki ze strony chłopców i wolała spędzać czas z nimi niż z wrednymi dziewczynami.
+                </p>
+                <h4>Późniejsze lata</h4>
+                <p>W wieku 18 lat ukończyła szkolenie wojskowe z wyróżnieniem i została wcielona do armii.<br>
+                    Po niedługim czasie zostałą wysłana na misję w charakterze straży wysokiego urzędnika państwowego.
+                    Niestety, nie wszystkoposzło tak jak powinno. Urzędnik został zabity podczas wyprawy.
+                    Feyra zdając sobie sprawę z konsekwencji, postanowiła uciec. Wiedziała, że jeśli wróci
+                    rodzinnego miasta zostanie ukarana wraz ze swoimi towarzyszami za niedopatrzenie na służbie.
+                    Postanawia przeprowadzić dochodzenie na własną rękę.
+                </p>
+                <h4>Charakter</h4>
+                <p>Jest nieco zaczepna, bezpośrednia, ale rozkazy wykonuje bez mrugnięcia okiem. Jej najważniejszym
+                    celem jest bycie żołnierzem wybitnie dobrym w walce. Jest wrażliwą dziewczyną, ale ukrywa tę cechę
+                    by
+                    podczas bitwy nie okazywać sentymentów. Swoją słabość wynikającą z wzrostu, wagi i płci, nadrabia
+                    sprytem i strategicznym myśleniem</p>
+                <h4>Rodzina</h4>
+                <p>Ojciec jest kowalem. Jego imię to Wilczan<br>
+                    Matka zajmuje się domem i rolnictwem. Jej imię to Anne.<br>
+                    Dwóch braci Feyry poszło w ślady ojca i zajmują się kowalstwem. Ich imiena to: Wilczan junior,
+                    Wiktor i
+                    Bjorn<br>
+                    Trzy jej starsze siostry to Anne, Aslaug i Astrid. Wszystkie wyszły za mąż i wychowują dzieci.</p>
+            </div>
+        </div>
+        <div class="flex-content">
+            <div class="flex-1"><img id="girin-img" class="girin" src="./images/Krasnolud Small.png" alt="Girin"
+                    title="Paladyn" onclick="openStat(event, 'girin', 'girin-img')"">
+            <div id=" girin" class="modal">
+                <div class="char-details">
+                    <span class="close">&times;</span>
+                    <div class="flex-content">
+                        <div class="flex-1"><img class="girin" src="./images/Krasnolud Small.png"></div>
+                        <div class="flex-2">
+                            <table>
+                                <tr>
+                                    <th colspan="2">Girin Ironfist</th>
+                                </tr>
+                                <tr>
+                                    <td>Klasa</td>
+                                    <td>Paladyn</td>
+                                </tr>
+                                <tr>
+                                    <td>Rasa</td>
+                                    <td>Krasnolud</td>
+                                </tr>
+                                <tr>
+                                    <td>Siła</td>
+                                    <td>16</td>
+                                </tr>
+                                <tr>
+                                    <td>Zręczność</td>
+                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <td>Kondycja</td>
+                                    <td>16</td>
+                                </tr>
+                                <tr>
+                                    <td>Mądrość</td>
+                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <td>Inteligencja</td>
+                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <td>Charyzma</td>
+                                    <td>16</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flex-2">
+            <h3>Girin Ironfist</h3>
+            <p><strong>Historia:</strong> Rodzina Ironfist od wieków mieszkał w Twierdzy Boladar, w pobliżu wielkiej
+                kopalni rudy
+                żelaza, z której Klan Uniesionego Młota czerpał zyski. Sami Ironfistowie zajmowali się przeróżnymi
+                zajęciami w klanie. Byli handlarzami, kowalami, sprzątaczami czy kucharzami. Zdarzali się też weterani
+                wojenni, ale to niezwykle rzadko. Żołnierzy nigdy nie brakowało wśród krasnoludów, więc Ironfistowie
+                zajmowali się mniej popularnymi zajęciami, które jednak były ważne i zyskowne. No bo czy głodny żołnierz
+                będzie miał siłę walczyć w bitwie? Otóż nie. Dlatego też rodzina Girina miała niezwykły posłuch u władcy
+                klanu.</p>
+            <p>
+                Girin jednak był czarną owcą w rodzinie. Nasłuchał się opowieści o przygodach jakie przeżył Golinar,
+                przywódca klanu, który w młodości był poszukiwaczem przygód i ubzdurał sobie, że będzie taki sam. Będzie
+                przeżywał wiele przygód, rozsławi też klan oraz Moradina, a gdy wróci, będą wiwatować na jego cześć.
+                Póki co jednak, musi obierać ziemniaki.</p>
+
+            <p style="text-align: center;">***</p>
+            <p>
+                Przez ostatnie pięć lat Girin pracował jako kucharz w popularnej gospodzie. Była często odwiedzana przez
+                wysoko postawione osoby. Girin bardzo starannie przykładał się do swojej pracy, nigdy nie żałował
+                pieniędzy na przyprawy, które w jego stronach były drogie, ponieważ pochodziły od kupców z dalekich
+                stron. Dzięki temu jego potrawy były wyjątkowo smaczne.</p>
+            <p>
+                Gospoda prosperowała dobrze, co nie wszystkim się podobało. Zazdrosna konkurencja podpaliła budynek
+                pełen ludzi. Zrobiło się zamieszanie, wszyscy wybiegli na zewnątrz. W tłumie, Arcykapłan Moradina,
+                Snorii Eisenkopf szukał swego syna. Girin, który pomagał przy ewakuacji, uświadomił sobie, że przed
+                wybuchem pożaru widział
+            </p>
+        </div>
+        </div>
+        <div class="flex-content">
+            <div class="flex-1"><img id="nitra-img" src="./images/Nitra Small.png" alt="Nitra" title="Łowca"
+                    onclick="openStat(event, 'nitra', 'nitra-img')">
+                <div id="nitra" class="modal">
+                    <div class="char-details">
+                        <span class="close">&times;</span>
+                        <div class="flex-content">
+                            <div class="flex-1"><img src="./images/Nitra Small.png"></div>
+                            <div class="flex-2">
+                                <table>
+                                    <tr>
+                                        <th colspan="2">Nitra</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Klasa</td>
+                                        <td>Łowca</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rasa</td>
+                                        <td>Pół-Drow</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Siła</td>
+                                        <td>10</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Zręczność</td>
+                                        <td>16</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kondycja</td>
+                                        <td>14</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mądrość</td>
+                                        <td>10</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Inteligencja</td>
+                                        <td>12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Charyzma</td>
+                                        <td>10</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-2">
+                <h3>Nitra</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <div class="flex-content">
+            <div class="flex-1"><img id="reaven-img" src="./images/Kapłan Small.png" alt="Reaven" title="Kapłan"
+                    onclick="openStat(event, 'reaven', 'reaven-img')">
+                <div id="reaven" class="modal">
+                    <div class="char-details">
+                        <span class="close">&times;</span>
+                        <div class="flex-content">
+                            <div class="flex-1"><img src="./images/Kapłan Small.png"></div>
+                            <div class="flex-2">
+                                <table>
+                                    <tr>
+                                        <th colspan="2">Reaven</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Klasa</td>
+                                        <td>Kapłan</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rasa</td>
+                                        <td>Człowiek</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Siła</td>
+                                        <td>16</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Zręczność</td>
+                                        <td>8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kondycja</td>
+                                        <td>16</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mądrość</td>
+                                        <td>8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Inteligencja</td>
+                                        <td>8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Charyzma</td>
+                                        <td>16</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-2">
+                <h3>Reaven</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <div class="filler">
+            &nbsp;
+        </div>
+        <div class="filler">&nbsp;</div>
+        <div class="footer">
+            <p>Domalewski IT
+                <a href="https://github.com/PawelDomalewski">https://github.com/PawelDomalewski</a>
+            </p>
         </div>
     </section>
-    <div class="flex-content">
-        <div class="flex-1"><img id="feyra-img" src="./images/feyra Small 170x318.png" alt="Feyra" title="Wojownik"
-                onclick="openStat(event, 'feyra', 'feyra-img')">
-            <div id="feyra" class="modal">
-                <div class="char-details">
-                    <span class="close">&times;</span>
-                    <div class="flex-content">
-                        <div class="flex-1"><img src="./images/feyra Small 170x318.png"></div>
-                        <div class="flex-2">
-                            <table>
-                                <tr>
-                                    <th colspan="2">Feyra</th>
-                                </tr>
-                                <tr>
-                                    <td>Klasa</td>
-                                    <td>Wojownik</td>
-                                </tr>
-                                <tr>
-                                    <td>Rasa</td>
-                                    <td>Człowiek</td>
-                                </tr>
-                                <tr>
-                                    <td>Siła</td>
-                                    <td>16</td>
-                                </tr>
-                                <tr>
-                                    <td>Zręczność</td>
-                                    <td>12</td>
-                                </tr>
-                                <tr>
-                                    <td>Kondycja</td>
-                                    <td>16</td>
-                                </tr>
-                                <tr>
-                                    <td>Mądrość</td>
-                                    <td>12</td>
-                                </tr>
-                                <tr>
-                                    <td>Inteligencja</td>
-                                    <td>12</td>
-                                </tr>
-                                <tr>
-                                    <td>Charyzma</td>
-                                    <td>10</td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="flex-2">
-            <h3>Feyra</h3>
-            <h4>Wczesne dzieciństwo</h4>
-            <p>Fera od najmłodszych lat wykazywała zainteresowanie bitwami i bawiła się raczej ze swoimi
-                braćmi niż z siostrami. Damskie zajęcia zawsze wydawały jej się nudne i monotonne. Szukała
-                przygód i adrenaliny w każdej zabawie. <br>
-                W wieku zaledwie 7 lat została przekazana na szkolenie wojskowe przez swoich rodziców.<br>
-                Dziewczyna szybko zaczęła robić postępy przez co zyskała wielu zalotników wśród kolegów i wrogów
-                wśród zazdrosnych koleżanek. Z biegiem czasu, chcąc nie chcąc, uodporniła się na niewybredne
-                zaczepki ze strony chłopców i wolała spędzać czas z nimi niż z wrednymi dziewczynami.
-            </p>
-            <h4>Późniejsze lata</h4>
-            <p>W wieku 18 lat ukończyła szkolenie wojskowe z wyróżnieniem i została wcielona do armii.<br>
-                Po niedługim czasie zostałą wysłana na misję w charakterze straży wysokiego urzędnika państwowego.
-                Niestety, nie wszystkoposzło tak jak powinno. Urzędnik został zabity podczas wyprawy.
-                Feyra zdając sobie sprawę z konsekwencji, postanowiła uciec. Wiedziała, że jeśli wróci
-                rodzinnego miasta zostanie ukarana wraz ze swoimi towarzyszami za niedopatrzenie na służbie.
-                Postanawia przeprowadzić dochodzenie na własną rękę.
-            </p>
-            <h4>Charakter</h4>
-            <p>Jest nieco zaczepna, bezpośrednia, ale rozkazy wykonuje bez mrugnięcia okiem. Jej najważniejszym
-                celem jest bycie żołnierzem wybitnie dobrym w walce. Jest wrażliwą dziewczyną, ale ukrywa tę cechę by
-                podczas bitwy nie okazywać sentymentów. Swoją słabość wynikającą z wzrostu, wagi i płci, nadrabia
-                sprytem i strategicznym myśleniem</p>
-            <h4>Rodzina</h4>
-            <p>Ojciec jest kowalem. Jego imię to Wilczan<br>
-                Matka zajmuje się domem i rolnictwem. Jej imię to Anne.<br>
-                Dwóch braci Feyry poszło w ślady ojca i zajmują się kowalstwem. Ich imiena to: Wilczan junior, Wiktor i
-                Bjorn<br>
-                Trzy jej starsze siostry to Anne, Aslaug i Astrid. Wszystkie wyszły za mąż i wychowują dzieci.</p>
-        </div>
-    </div>
-    <div class="flex-content">
-        <div class="flex-1"><img id="girin-img" class="girin" src="./images/Krasnolud Small.png" alt="Girin"
-                title="Paladyn" onclick="openStat(event, 'girin', 'girin-img')"">
-            <div id="girin" class="modal">
-            <div class="char-details">
-                <span class="close">&times;</span>
-                <div class="flex-content">
-                    <div class="flex-1"><img class="girin" src="./images/Krasnolud Small.png"></div>
-                    <div class="flex-2">
-                        <table>
-                            <tr>
-                                <th colspan="2">Girin Ironfist</th>
-                            </tr>
-                            <tr>
-                                <td>Klasa</td>
-                                <td>Paladyn</td>
-                            </tr>
-                            <tr>
-                                <td>Rasa</td>
-                                <td>Krasnolud</td>
-                            </tr>
-                            <tr>
-                                <td>Siła</td>
-                                <td>16</td>
-                            </tr>
-                            <tr>
-                                <td>Zręczność</td>
-                                <td>8</td>
-                            </tr>
-                            <tr>
-                                <td>Kondycja</td>
-                                <td>16</td>
-                            </tr>
-                            <tr>
-                                <td>Mądrość</td>
-                                <td>8</td>
-                            </tr>
-                            <tr>
-                                <td>Inteligencja</td>
-                                <td>8</td>
-                            </tr>
-                            <tr>
-                                <td>Charyzma</td>
-                                <td>16</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="flex-2">
-        <h3>Girin Ironfist</h3>
-        <p><strong>Historia:</strong> Rodzina Ironfist od wieków mieszkał w Twierdzy Boladar, w pobliżu wielkiej
-            kopalni rudy
-            żelaza, z której Klan Uniesionego Młota czerpał zyski. Sami Ironfistowie zajmowali się przeróżnymi
-            zajęciami w klanie. Byli handlarzami, kowalami, sprzątaczami czy kucharzami. Zdarzali się też weterani
-            wojenni, ale to niezwykle rzadko. Żołnierzy nigdy nie brakowało wśród krasnoludów, więc Ironfistowie
-            zajmowali się mniej popularnymi zajęciami, które jednak były ważne i zyskowne. No bo czy głodny żołnierz
-            będzie miał siłę walczyć w bitwie? Otóż nie. Dlatego też rodzina Girina miała niezwykły posłuch u władcy
-            klanu.</p>
-        <p>
-            Girin jednak był czarną owcą w rodzinie. Nasłuchał się opowieści o przygodach jakie przeżył Golinar,
-            przywódca klanu, który w młodości był poszukiwaczem przygód i ubzdurał sobie, że będzie taki sam. Będzie
-            przeżywał wiele przygód, rozsławi też klan oraz Moradina, a gdy wróci, będą wiwatować na jego cześć.
-            Póki co jednak, musi obierać ziemniaki.</p>
-
-        <p style="text-align: center;">***</p>
-        <p>
-            Przez ostatnie pięć lat Girin pracował jako kucharz w popularnej gospodzie. Była często odwiedzana przez
-            wysoko postawione osoby. Girin bardzo starannie przykładał się do swojej pracy, nigdy nie żałował
-            pieniędzy na przyprawy, które w jego stronach były drogie, ponieważ pochodziły od kupców z dalekich
-            stron. Dzięki temu jego potrawy były wyjątkowo smaczne.</p>
-        <p>
-            Gospoda prosperowała dobrze, co nie wszystkim się podobało. Zazdrosna konkurencja podpaliła budynek
-            pełen ludzi. Zrobiło się zamieszanie, wszyscy wybiegli na zewnątrz. W tłumie, Arcykapłan Moradina,
-            Snorii Eisenkopf szukał swego syna. Girin, który pomagał przy ewakuacji, uświadomił sobie, że przed
-            wybuchem pożaru widział
-        </p>
-    </div>
-    </div>
-    <div class="flex-content">
-        <div class="flex-1"><img id="nitra-img" src="./images/Nitra Small.png" alt="Nitra" title="Łowca"
-                onclick="openStat(event, 'nitra', 'nitra-img')">
-            <div id="nitra" class="modal">
-                <div class="char-details">
-                    <span class="close">&times;</span>
-                    <div class="flex-content">
-                        <div class="flex-1"><img src="./images/Nitra Small.png"></div>
-                        <div class="flex-2">
-                            <table>
-                                <tr>
-                                    <th colspan="2">Nitra</th>
-                                </tr>
-                                <tr>
-                                    <td>Klasa</td>
-                                    <td>Łowca</td>
-                                </tr>
-                                <tr>
-                                    <td>Rasa</td>
-                                    <td>Pół-Drow</td>
-                                </tr>
-                                <tr>
-                                    <td>Siła</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-                                    <td>Zręczność</td>
-                                    <td>16</td>
-                                </tr>
-                                <tr>
-                                    <td>Kondycja</td>
-                                    <td>14</td>
-                                </tr>
-                                <tr>
-                                    <td>Mądrość</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-                                    <td>Inteligencja</td>
-                                    <td>12</td>
-                                </tr>
-                                <tr>
-                                    <td>Charyzma</td>
-                                    <td>10</td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="flex-2">
-            <h3>Nitra</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
-        </div>
-    </div>
-    <div class="flex-content">
-        <div class="flex-1"><img id="reaven-img" src="./images/Kapłan Small.png" alt="Reaven" title="Kapłan"
-                onclick="openStat(event, 'reaven', 'reaven-img')">
-            <div id="reaven" class="modal">
-                <div class="char-details">
-                    <span class="close">&times;</span>
-                    <div class="flex-content">
-                        <div class="flex-1"><img src="./images/Kapłan Small.png"></div>
-                        <div class="flex-2">
-                            <table>
-                                <tr>
-                                    <th colspan="2">Reaven</th>
-                                </tr>
-                                <tr>
-                                    <td>Klasa</td>
-                                    <td>Kapłan</td>
-                                </tr>
-                                <tr>
-                                    <td>Rasa</td>
-                                    <td>Człowiek</td>
-                                </tr>
-                                <tr>
-                                    <td>Siła</td>
-                                    <td>16</td>
-                                </tr>
-                                <tr>
-                                    <td>Zręczność</td>
-                                    <td>8</td>
-                                </tr>
-                                <tr>
-                                    <td>Kondycja</td>
-                                    <td>16</td>
-                                </tr>
-                                <tr>
-                                    <td>Mądrość</td>
-                                    <td>8</td>
-                                </tr>
-                                <tr>
-                                    <td>Inteligencja</td>
-                                    <td>8</td>
-                                </tr>
-                                <tr>
-                                    <td>Charyzma</td>
-                                    <td>16</td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="flex-2">
-            <h3>Reaven</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
-        </div>
-    </div>
-    <div class="filler">
-        &nbsp;
-    </div>
-    <div class="filler">&nbsp;</div>
-    <div class="footer">
-        <p>Domalewski IT
-            <a href="https://github.com/PawelDomalewski">https://github.com/PawelDomalewski</a>
-        </p>
-    </div> 
     <script>
         function openStat(evt, statName, btnName) {
             var modal = document.getElementById(statName);
