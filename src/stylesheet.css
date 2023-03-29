@@ -191,6 +191,10 @@ tr:nth-child(even) {
     background-color: var(--popupcolor);
 }
 
+td {
+    text-align: center;
+}
+
 @media screen and (max-width: 610px) {
     .flex-2 {
         width: auto;
