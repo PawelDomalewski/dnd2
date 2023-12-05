@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url(../images/background1.png);
+    background-image: url(../images/background.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -151,7 +151,7 @@ img:hover {
 .filler {
     width: auto;
     padding: 15em 0em;
-    background-image: url(../images/backgroundcolor1.png);
+    background-image: url(../images/backgroundcolor.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
